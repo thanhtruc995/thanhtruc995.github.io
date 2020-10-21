@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+body{font-family: Arial, "sans-serif";}
+header{
+	background-image: url(image/coffee-beans.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header h1{
+	color: white;padding-left: 30px; font-size: 3em;
+}
+nav{
+	background-color: darkred; margin-top: 30px;
+}
+ul{
+	list-style-type: none;padding-top: 5px; padding-bottom: 5px; 
+}
+header li{
+	display: inline; padding-left: 50px; padding-right: 50px; font-weight: bold; color: white;
+}
+section h1{
+	color: darkred; font-size: 2em; padding: 20px;
+}
+aside{
+	float: right; width: 30%; background-color: antiquewhite; padding: 30px; text-align: center;
+}
+.noidung{
+	width: 65%; padding-right: 10px;
+}
+.coffeecup{
+	float: left; padding-right: 20px;
+}
+footer{
+	padding-top: 50px;
+}
